@@ -1,4 +1,4 @@
-# Car Scrapper - Erwin Bonto (OneLot)
+# Car Scrapper - Erwin Bonto 
 
 A repository containing the scrapper application powered by Selenium, PostgreSQL, and FastAPI
 
