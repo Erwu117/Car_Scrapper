@@ -22,15 +22,15 @@ fastapi dev main.py
 Once the application is running, the following query can be executed on browser as follows
 - Get price range of a specific model
 ```console
-127.0.0.1/price-range/?model="ModelName"
+127.0.0.1:8000/price-range/?model="ModelName"
 ```
 - Get most selling car based on month
 ```console
-127.0.0.1/most-selling/?month="MonthInteger"
+127.0.0.1:8000/most-selling/?month="MonthInteger"
 ```
 - Get least selling car based on month
 ```console
-127.0.0.1/least-selling/?month="MonthInteger"
+127.0.0.1:8000/least-selling/?month="MonthInteger"
 ```
 ## Contributing
 
