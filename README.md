@@ -19,7 +19,19 @@ Execute to run application
 ```console
 fastapi dev main.py
 ```
-
+Once the application is running, the following query can be executed on browser as follows
+- Get price range of a specific model
+```console
+127.0.0.1/price-range/?model="ModelName"
+```
+- Get most selling car based on month
+```console
+127.0.0.1/most-selling/?month="MonthInteger"
+```
+- Get least selling car based on month
+```console
+127.0.0.1/least-selling/?month="MonthInteger"
+```
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
